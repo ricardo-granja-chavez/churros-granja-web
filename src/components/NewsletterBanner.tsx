@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import bellIcon from '../assets/icons/icon-bell.svg'
 import emailIcon from '../assets/icons/icon-email.svg'
 import checkIcon from '../assets/icons/icon-check.svg'
 
@@ -54,22 +53,6 @@ export function NewsletterBanner() {
 
         {/* Content */}
         <div className="relative flex flex-col gap-4 max-w-[768px]">
-
-          {/* Club label pill */}
-          <div>
-            <span
-              className="inline-flex items-center gap-2 rounded-full px-3 py-1"
-              style={{ background: 'rgba(253,161,57,0.2)' }}
-            >
-              <img src={bellIcon} alt="" aria-hidden="true" className="w-[13.33px] h-[13.37px]" style={{ filter: 'brightness(0) saturate(100%) invert(85%) sepia(28%) saturate(400%) hue-rotate(340deg) brightness(105%)' }} />
-              <span
-                className="font-body font-bold text-[11px] leading-[14px] tracking-[0.05em] uppercase"
-                style={{ color: '#FFDCBE' }}
-              >
-                Club de Amigos del Churro
-              </span>
-            </span>
-          </div>
 
           {/* Headline */}
           <h2

@@ -15,7 +15,7 @@ export function Header() {
         />
 
         {/* Nav */}
-        <nav className="flex items-center">
+        <nav className="flex items-center bg-surface-container-low rounded-full p-1 gap-1">
           <a
             href="#inicio"
             className="font-body font-semibold text-label-lg text-white bg-primary-container rounded-full px-4 py-2 hover:brightness-110 transition-colors"
@@ -24,13 +24,13 @@ export function Header() {
           </a>
           <a
             href="#eventos"
-            className="font-body font-semibold text-label-lg text-on-surface-variant rounded-full px-4 py-2 hover:bg-surface-container-low transition-colors"
+            className="font-body font-semibold text-label-lg text-on-surface-variant bg-surface-container-lowest rounded-full px-4 py-2 hover:bg-surface-container transition-colors"
           >
             Eventos
           </a>
           <a
             href="#contacto"
-            className="font-body font-semibold text-label-lg text-on-surface-variant rounded-full px-4 py-2 hover:bg-surface-container-low transition-colors"
+            className="font-body font-semibold text-label-lg text-on-surface-variant bg-surface-container-lowest rounded-full px-4 py-2 hover:bg-surface-container transition-colors"
           >
             Contacto
           </a>
